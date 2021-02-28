@@ -12,12 +12,9 @@ import { ModalContentPageModule } from '../pages/modal-content/modal-content.mod
     CommonModule,
     FormsModule,
     IonicModule,
-    // ModalContentPageModule,
+    ModalContentPageModule,
     HomePageRoutingModule
   ],
-  declarations:
-  [
-    HomePage
-  ]
+  declarations: [HomePage]
 })
 export class HomePageModule {}

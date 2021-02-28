@@ -16,8 +16,7 @@ import { ModalContentPageModule } from '../pages/modal-content/modal-content.mod
     HomePageRoutingModule
   ],
   declarations:
-  [
-    HomePage
+  [HomePage
   ]
 })
 export class HomePageModule {}

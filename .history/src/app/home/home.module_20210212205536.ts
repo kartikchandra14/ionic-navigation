@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
+
 import { HomePageRoutingModule } from './home-routing.module';
-import { ModalContentPageModule } from '../pages/modal-content/modal-content.module';
 
 
 @NgModule({
@@ -12,12 +12,8 @@ import { ModalContentPageModule } from '../pages/modal-content/modal-content.mod
     CommonModule,
     FormsModule,
     IonicModule,
-    // ModalContentPageModule,
     HomePageRoutingModule
   ],
-  declarations:
-  [
-    HomePage
-  ]
+  declarations: [HomePage]
 })
 export class HomePageModule {}

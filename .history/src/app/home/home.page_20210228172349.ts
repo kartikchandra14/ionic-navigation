@@ -17,7 +17,7 @@ export class HomePage {
   ) {}
 
   async presentModal() {
-    const modal = await this.modalController.create({
+    const modal = await this.popoverController.create({
       // presentingElement: this.routerOutlet.nativeEl,
       component: ModalBaseComponent,
       componentProps: {
